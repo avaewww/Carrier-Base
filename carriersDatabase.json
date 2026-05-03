@@ -44,5 +44,15 @@
     "carriers": [
       { "name": "Ucom", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
     ]
+  },
+  {
+    "id": "RU",
+    "carriers": [
+      { "name": "Beeline", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
+      { "name": "Yota", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
+      { "name": "MTS", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
+      { "name": "t2", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
+      { "name": "MegaFon", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+    ]
   }
 ]
