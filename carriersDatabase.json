@@ -37,7 +37,8 @@
   {
     "id": "KZ",
     "carriers": [
-      { "name": "Tele2", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+      { "name": "Tele2", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
+      { "name": "BeelineKZ", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
     ]
   },
   {
