@@ -33,6 +33,20 @@
       { "name": "Orange", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true }
     ]
   },
+  },
+  {
+    "id": "GB",
+    "carriers": [
+      { "name": "o2", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true },
+      { "name": "Smarty", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true }
+    ]
+  },
+  {
+    "id": "IE",
+    "carriers": [
+      { "name": "48.ie", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+    ]
+  },
   {
     "id": "TR",
     "carriers": [
@@ -46,6 +60,12 @@
     ]
   },
   {
+    "id": "LT",
+    "carriers": [
+      { "name": "Telia", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true }
+    ]
+  },
+  {
     "id": "RU",
     "carriers": [
       { "name": "Beeline", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
@@ -53,6 +73,15 @@
       { "name": "MTS", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
       { "name": "t2", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
       { "name": "MegaFon", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+    ]
+  },
+  {
+    "id": "IN",
+    "carriers": [
+      { "name": "Jio", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true },
+      { "name": "Airtel", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true },
+      { "name": "Vi", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true },
+      { "name": "BSNL", "has5G": false, "hasVoLTE": true, "hasVoWiFi": false }
     ]
   }
 ]
