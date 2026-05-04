@@ -18,6 +18,7 @@
     "carriers": [
       { "name": "TIM", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true },
       { "name": "WindTre", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true },
+      { "name": "Iliad", "has5G": true, "hasVoLTE": true, "hasVoWiFi": false },
       { "name": "Lycamobile", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
     ]
   },
