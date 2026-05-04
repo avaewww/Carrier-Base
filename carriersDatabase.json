@@ -29,6 +29,17 @@
     ]
   },
   {
+    "id": "CN",
+    "carriers": [
+      { "name": "China Unicom", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+    ]
+  },
+  {
+    "id": "KZ",
+    "carriers": [
+      { "name": "Tele2", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+    ]
+  {
     "id": "RO",
     "carriers": [
       { "name": "Orange", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true }
