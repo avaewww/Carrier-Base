@@ -591,13 +591,6 @@
         "hasVoWiFi": false
       },
       {
-        "name": "Lycamobile",
-        "has5G": false,
-        "hasVoLTE": false,
-        "hasVoWiFi": false,
-        "hasVo5G": false
-      },
-      {
         "name": "Miatel",
         "has5G": false,
         "hasVoLTE": false,
