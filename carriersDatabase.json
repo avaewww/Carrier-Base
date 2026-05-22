@@ -103,7 +103,7 @@
       },
       {
         "name": "Fastweb",
-        "has5G": false,
+        "has5G": true,
         "hasVoLTE": true,
         "hasVoWiFi": true,
         "hasVo5G": false
@@ -3471,7 +3471,7 @@
       },
       {
         "name": "Vodafone",
-        "has5G": false,
+        "has5G": true,
         "hasVoLTE": true,
         "hasVoWiFi": false,
         "hasVo5G": false
