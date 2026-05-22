@@ -1,9 +1,9 @@
 # Pixel Network Status 🌐
 
-A centralized dashboard tracking the real-world support of modern network technologies (5G, VoLTE, VoWiFi) on Google Pixel devices across global mobile carriers. 
+A centralized dashboard tracking the real-world support of modern network technologies (5G, VoNR, VoLTE, VoWiFi) on Google Pixel devices across global mobile carriers. 
 
 ## 📌 The Problem
-Missing 5G, VoLTE, or VoWiFi on your Pixel in an "unsupported" country? Often, the core issue lies with local mobile carriers who fail to provide the necessary IMS profiles or refuse to let these devices on their advanced networks. This project maps out which operators worldwide actually support Pixel devices.
+Missing 5G, VoNR, VoLTE, or VoWiFi on your Pixel in an "unsupported" country? Often, the core issue lies with local mobile carriers who fail to provide the necessary IMS profiles or refuse to let these devices on their advanced networks. This project maps out which operators worldwide actually support Pixel devices.
 
 ## ✨ Features
 * **Interactive 3D Globe:** Visually explore network support across different countries.
