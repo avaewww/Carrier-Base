@@ -2,99 +2,4626 @@
   {
     "id": "UA",
     "carriers": [
-      { "name": "Kyivstar", "has5G": false, "hasVoLTE": true, "hasVoWiFi": false },
-      { "name": "Vodafone UA", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
-      { "name": "lifecell", "has5G": "roaming", "hasVoLTE": true, "hasVoWiFi": true }
+      {
+        "name": "Kyivstar",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone UA",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false
+      },
+      {
+        "name": "lifecell",
+        "has5G": "roaming",
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
     ]
   },
   {
     "id": "PL",
     "carriers": [
-      { "name": "Orange", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true }
+      {
+        "name": "Orange",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Play",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Plus",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telekom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
     ]
   },
   {
     "id": "IT",
     "carriers": [
-      { "name": "TIM", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true },
-      { "name": "WindTre", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true },
-      { "name": "Iliad", "has5G": true, "hasVoLTE": true, "hasVoWiFi": false },
-      { "name": "Lycamobile", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+      {
+        "name": "TIM",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "WindTre",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Iliad",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lycamobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false
+      },
+      {
+        "name": "CoopVoce",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Digi",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Fastweb",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Homobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Kena",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Optima",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Plintron",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "PosteMobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Spusu",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Very Mobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vianova",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
     ]
   },
   {
     "id": "EG",
     "carriers": [
-      { "name": "Vodafone EG", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+      {
+        "name": "Vodafone EG",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false
+      },
+      {
+        "name": "Orange",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
     ]
   },
   {
     "id": "CN",
     "carriers": [
-      { "name": "China Unicom", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+      {
+        "name": "China Unicom",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false
+      }
     ]
   },
   {
     "id": "KZ",
     "carriers": [
-      { "name": "Tele2", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
-      { "name": "BeelineKZ", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+      {
+        "name": "Tele2",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false
+      }
     ]
   },
   {
     "id": "RO",
     "carriers": [
-      { "name": "Orange", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true }
+      {
+        "name": "Orange",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Digi",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telekom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
     ]
   },
   {
     "id": "GB",
     "carriers": [
-      { "name": "o2", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true },
-      { "name": "Smarty", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true }
+      {
+        "name": "o2",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Smarty",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Asda",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Btb",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Btc",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Cloud9",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Ee",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Esimgo",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Esn",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Gamma",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Giffgaff",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Gigs",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Three",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Idmobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Jt",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lebara",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lycamobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Sky",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Spitfire",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Spusu",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Superdrug",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Talkmobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tcl",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tesco",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Virgin Mobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      }
     ]
   },
   {
     "id": "IE",
     "carriers": [
-      { "name": "48.ie", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+      {
+        "name": "48.ie",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Eir",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "H3g27202",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Postmobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Sky",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
     ]
   },
   {
     "id": "TR",
     "carriers": [
-      { "name": "Turkcell", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+      {
+        "name": "Turkcell",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Netgsm",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Selam",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Turktelekom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
     ]
   },
   {
     "id": "AM",
     "carriers": [
-      { "name": "Ucom", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+      {
+        "name": "Ucom",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false
+      }
     ]
   },
   {
     "id": "LT",
     "carriers": [
-      { "name": "Telia", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true }
+      {
+        "name": "Telia",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Bite",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tele2",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
     ]
   },
   {
     "id": "RU",
     "carriers": [
-      { "name": "Beeline", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
-      { "name": "Yota", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
-      { "name": "MTS", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
-      { "name": "t2", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false },
-      { "name": "MegaFon", "has5G": false, "hasVoLTE": false, "hasVoWiFi": false }
+      {
+        "name": "Beeline",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false
+      },
+      {
+        "name": "Yota",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false
+      },
+      {
+        "name": "MTS",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false
+      },
+      {
+        "name": "t2",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false
+      },
+      {
+        "name": "MegaFon",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false
+      },
+      {
+        "name": "Lycamobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Miatel",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tinkoff",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
     ]
   },
   {
     "id": "IN",
     "carriers": [
-      { "name": "Jio", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true },
-      { "name": "Airtel", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true },
-      { "name": "Vi", "has5G": true, "hasVoLTE": true, "hasVoWiFi": true },
-      { "name": "BSNL", "has5G": false, "hasVoLTE": true, "hasVoWiFi": false }
+      {
+        "name": "Jio",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true
+      },
+      {
+        "name": "Airtel",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vi",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true
+      },
+      {
+        "name": "BSNL",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Idea",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Rjio",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "IL",
+    "carriers": [
+      {
+        "name": "019 Mobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Annatel",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Cellcom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Hotmobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Partner",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Pelephone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Wecom",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Xphone",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "DE",
+    "carriers": [
+      {
+        "name": "1&1",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Airbus",
+        "has5G": true,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Congstar",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Enreach",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Eplus",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Lebara",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Mtel",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "o2",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Sipgate",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Spusu",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tchibo",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telekom",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      }
+    ]
+  },
+  {
+    "id": "NZ",
+    "carriers": [
+      {
+        "name": "2degrees",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Skinny",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Spark",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "US",
+    "carriers": [
+      {
+        "name": "321 Communications",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Agms",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Alticeroaming",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Appalachian",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Assurance",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Astoundbroadband",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "AT&T",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Bark",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Bluegrass",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Boostmobile",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Boosttmo",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Cape",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Carolina West",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Cellcommno",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Celluarone",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Comcastbusiness",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Commonmvnxatt",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Compax",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Consumercellularatt",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Consumercellulartmo",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Copper Valley",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Cordova",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Cox",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Cricket",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Cspire",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Defensemobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Dish",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Docomo Pacific",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Evolve",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Firstnetpacific2",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Fi Tmo",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Fliggsmobile",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Gci",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Gigsky",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Google",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Gta",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Helium",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Inland",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Iwireless",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Joonto",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Kajeet",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Libertymobile",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Limitless",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lyca",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Mediacom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Membersmobile",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Metropcs",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Mettel",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Mobi",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Mvnoconnect",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Nextech",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Noble",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Nymobile",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Optimera",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Otz",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Oxio",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Pinebelt",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Plintron",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Popcorn",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Pwg",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Qlink",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Reach",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Reallycommunications",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Redpocketatt",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Redpockettmo",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Republicwireless",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Roccstar",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Rockisland",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Rockwireless",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Simple",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Smartless",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Spectrumbusiness",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Spectrummsotest",
+        "has5G": true,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Sprint",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Strata",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tango",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tello",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Telnyx",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Textnow",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tgs",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Thumbcellular",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tmoericsson",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": true
+      },
+      {
+        "name": "Tracfoneatt",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tracfonetmo",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tracfoneverizon",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Truphone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "U264a",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": true
+      },
+      {
+        "name": "Ultra",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Unionwireless",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Unitedwireless",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Uscc",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Utc",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Verizononsitelte",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Viaero",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Virgin Mobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Visible",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Worldmobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Xfinity2",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Xfinitymso",
+        "has5G": true,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Ztar",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "SK",
+    "carriers": [
+      {
+        "name": "4ka",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "o2",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Orange",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telekom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "AT",
+    "carriers": [
+      {
+        "name": "A1mpn",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Bob",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Fi",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Three",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Help",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Mtel",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Spusu",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tchibo",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "T-Mobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "U264ao",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "U264ap",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Yesss",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "BG",
+    "carriers": [
+      {
+        "name": "A1",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vivacom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Yettel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "HR",
+    "carriers": [
+      {
+        "name": "A1",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Bonbon",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telekom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telemach",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "MK",
+    "carriers": [
+      {
+        "name": "A1",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telekom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "RS",
+    "carriers": [
+      {
+        "name": "A1",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telekom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Yettel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "SI",
+    "carriers": [
+      {
+        "name": "A1",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "t2",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telekom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telemach",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "JP",
+    "carriers": [
+      {
+        "name": "ahamo",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "NTT Docomo",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Jcommobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "KDDI",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Linemo",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "povo",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Rakuten",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "SoftBank",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Uqmobile",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "FR",
+    "carriers": [
+      {
+        "name": "Airbus",
+        "has5G": true,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Bouyguesb2b",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Cellhire",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Coriolis",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Free",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Ipdirections",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lebara",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Legos",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Netcomgroup",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Netwo",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Orangentn",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "SFR",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Transatel",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "LK",
+    "carriers": [
+      {
+        "name": "Airtel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Dialog",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Three",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Slt",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "TH",
+    "carriers": [
+      {
+        "name": "Ais",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Dtac",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Ntplc",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Truemove",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "FI",
+    "carriers": [
+      {
+        "name": "Alcom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "DNA",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Elisa",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Telia",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "MX",
+    "carriers": [
+      {
+        "name": "Alestra",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Att4g",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Bait",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Izziatt",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Megamovil",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Movistar",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Newww",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Sky",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telcel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Ubixatt",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Walmart",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Wim",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Yomobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "BS",
+    "carriers": [
+      {
+        "name": "Aliv",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "IQ",
+    "carriers": [
+      {
+        "name": "Alkafeel",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "AD",
+    "carriers": [
+      {
+        "name": "Andorratelecom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "UY",
+    "carriers": [
+      {
+        "name": "Antel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "TW",
+    "carriers": [
+      {
+        "name": "Apt",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Cht",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Fet",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tstar",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Twm",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "AG",
+    "carriers": [
+      {
+        "name": "Apua",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "AS",
+    "carriers": [
+      {
+        "name": "Astca",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "ID",
+    "carriers": [
+      {
+        "name": "Axis",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Indosat",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Smartfren",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telkomsel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "CH",
+    "carriers": [
+      {
+        "name": "B1",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Iway",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Mtel",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Mucho",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Netplus",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Nexphone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Salt",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Solnet",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Spusu",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Sunrise",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Swisscom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "BE",
+    "carriers": [
+      {
+        "name": "Base",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Bics",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Citymesh",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Orange",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Proximus",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Telavox",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telenet",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telnyx",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "BH",
+    "carriers": [
+      {
+        "name": "Batelco",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Stc",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Zain",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "CA",
+    "carriers": [
+      {
+        "name": "Bell",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Cape",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Chatr",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Cloudcore",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Cogeco",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Eastlink",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Eeyou Mobility",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Execulink",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Fido",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Fizz",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Freedom Mobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Ice",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Koodo",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lucky Mobile",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lum",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "PC Mobile",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Public Mobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Rogers",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "SaskTel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Solo Mobile",
+        "has5G": true,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Ssimobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tbaytel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telus",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "U264ab",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Videotron",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Virgin Mobile",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "LA",
+    "carriers": [
+      {
+        "name": "Best",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "BA",
+    "carriers": [
+      {
+        "name": "Bhtelecom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Mtel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "LV",
+    "carriers": [
+      {
+        "name": "Bite",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lmt",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tele2",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "BR",
+    "carriers": [
+      {
+        "name": "Brisanet",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Claro",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Correios",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Emnify",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "TIM",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Unifique",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vivo",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "CY",
+    "carriers": [
+      {
+        "name": "Cablenet",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Cytamobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "SC",
+    "carriers": [
+      {
+        "name": "Cable & Wireless",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "VG",
+    "carriers": [
+      {
+        "name": "Caribbean",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "MY",
+    "carriers": [
+      {
+        "name": "Celcom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Digi",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Maxis",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Umobile",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Unifi",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Yes",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "GE",
+    "carriers": [
+      {
+        "name": "Cellfie",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Magticom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "GR",
+    "carriers": [
+      {
+        "name": "Cellmobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Nova",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telekom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "HK",
+    "carriers": [
+      {
+        "name": "Chinamobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Three",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Smartone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Webbing",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "SE",
+    "carriers": [
+      {
+        "name": "Citymesh",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Three",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Halebop",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lycamobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telavox",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tele2",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telenor",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Teliab2b",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vimla",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "TJ",
+    "carriers": [
+      {
+        "name": "Cjsc",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "AR",
+    "carriers": [
+      {
+        "name": "Claro",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Movistar",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telecom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "CL",
+    "carriers": [
+      {
+        "name": "Claro",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Entel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Movistar",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Wom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "CO",
+    "carriers": [
+      {
+        "name": "Claro",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Movistar",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tigo",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "PE",
+    "carriers": [
+      {
+        "name": "Claro",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Entel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Movistar",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "PR",
+    "carriers": [
+      {
+        "name": "Claro",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Liberty",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "NO",
+    "carriers": [
+      {
+        "name": "Com4",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Erate",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Ice",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Naf",
+        "has5G": true,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Onecall",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telenor",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telia",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "NL",
+    "carriers": [
+      {
+        "name": "Cspire",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Enreach",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "KPN",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lebara",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tcl",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "T-Mobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tmo",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "MO",
+    "carriers": [
+      {
+        "name": "Ctm",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Three",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "ES",
+    "carriers": [
+      {
+        "name": "Digimobil",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Finetwork",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Jazztel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lobster",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lowi",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Masmovil",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Movistar",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Orange",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Ptvtelecom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Simyo",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Xfera",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Yoigo",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "HU",
+    "carriers": [
+      {
+        "name": "Digi",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telekom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Yettel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "PT",
+    "carriers": [
+      {
+        "name": "Digi",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lycamobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Meo",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Nos",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "PH",
+    "carriers": [
+      {
+        "name": "Dito",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Globe",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Smart",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "AE",
+    "carriers": [
+      {
+        "name": "Du",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Etisalat",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "EE",
+    "carriers": [
+      {
+        "name": "Elisa",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tele2",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telia",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "LI",
+    "carriers": [
+      {
+        "name": "Emnify",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Fl1",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Salt",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Swisscom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "GY",
+    "carriers": [
+      {
+        "name": "Enetworks",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "MT",
+    "carriers": [
+      {
+        "name": "Epic",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Gomobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Melita",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "AF",
+    "carriers": [
+      {
+        "name": "Etisalat",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "LS",
+    "carriers": [
+      {
+        "name": "Etl",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "KE",
+    "carriers": [
+      {
+        "name": "Faiba",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Jamil",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "FO",
+    "carriers": [
+      {
+        "name": "Foroyatele",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Nema",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "GP",
+    "carriers": [
+      {
+        "name": "Free",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Orange",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "MQ",
+    "carriers": [
+      {
+        "name": "Free",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "RE",
+    "carriers": [
+      {
+        "name": "Free",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Orange",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telco",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Zeop",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "GI",
+    "carriers": [
+      {
+        "name": "Gibtel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "SG",
+    "carriers": [
+      {
+        "name": "Giga",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "M1",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Simba",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Singtel",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Starhub",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "BD",
+    "carriers": [
+      {
+        "name": "Grameenphone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Robi",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "TZ",
+    "carriers": [
+      {
+        "name": "Halotel",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Yas",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "MD",
+    "carriers": [
+      {
+        "name": "Idc",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Moldcell",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Orange",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "PK",
+    "carriers": [
+      {
+        "name": "Jazz",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telenor",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "RW",
+    "carriers": [
+      {
+        "name": "Ktrn",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "KR",
+    "carriers": [
+      {
+        "name": "Kt",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Lguplus",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Skt",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "SA",
+    "carriers": [
+      {
+        "name": "Lebara",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Mobily",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Stc",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Zain",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "DK",
+    "carriers": [
+      {
+        "name": "Lycamobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tdc",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telenor",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telia",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Three",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "UG",
+    "carriers": [
+      {
+        "name": "Lycamobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "IM",
+    "carriers": [
+      {
+        "name": "Manxcontract",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "IR",
+    "carriers": [
+      {
+        "name": "Mci",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "KG",
+    "carriers": [
+      {
+        "name": "Megacom",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "VN",
+    "carriers": [
+      {
+        "name": "Mobifone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Viettel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vinaphone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "MC",
+    "carriers": [
+      {
+        "name": "Monacotelecom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "ME",
+    "carriers": [
+      {
+        "name": "Mtel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "One",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telekom",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "GH",
+    "carriers": [
+      {
+        "name": "Mtn",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "NG",
+    "carriers": [
+      {
+        "name": "Mtn",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "ZM",
+    "carriers": [
+      {
+        "name": "Mtn",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "LU",
+    "carriers": [
+      {
+        "name": "Mtx",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Orange",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Post",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Tango",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "HT",
+    "carriers": [
+      {
+        "name": "Natcom",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "NP",
+    "carriers": [
+      {
+        "name": "Ncell",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "NR",
+    "carriers": [
+      {
+        "name": "Neotel",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "IS",
+    "carriers": [
+      {
+        "name": "Nova",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Siminn",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "CZ",
+    "carriers": [
+      {
+        "name": "o2",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "T-Mobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "OM",
+    "carriers": [
+      {
+        "name": "Omantel",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "MN",
+    "carriers": [
+      {
+        "name": "Ondo",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "SL",
+    "carriers": [
+      {
+        "name": "One",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "AL",
+    "carriers": [
+      {
+        "name": "One",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "YT",
+    "carriers": [
+      {
+        "name": "Only",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "KW",
+    "carriers": [
+      {
+        "name": "Ooredoo",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Stc",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Virgin Mobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Zain",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "MV",
+    "carriers": [
+      {
+        "name": "Ooredoo",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "QA",
+    "carriers": [
+      {
+        "name": "Ooredoo",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "AU",
+    "carriers": [
+      {
+        "name": "Optus",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      },
+      {
+        "name": "Telstra",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": true
+      },
+      {
+        "name": "Vodafone",
+        "has5G": true,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "ML",
+    "carriers": [
+      {
+        "name": "Orange",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "SN",
+    "carriers": [
+      {
+        "name": "Orange",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "TN",
+    "carriers": [
+      {
+        "name": "Orange",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "SB",
+    "carriers": [
+      {
+        "name": "Ourtelekom",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "BM",
+    "carriers": [
+      {
+        "name": "Paradisemobile",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": true,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "KY",
+    "carriers": [
+      {
+        "name": "Paradisemobile",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "PW",
+    "carriers": [
+      {
+        "name": "Pmci",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "ZA",
+    "carriers": [
+      {
+        "name": "Rain",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "SY",
+    "carriers": [
+      {
+        "name": "Rcell",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "AW",
+    "carriers": [
+      {
+        "name": "Setar",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "PM",
+    "carriers": [
+      {
+        "name": "Spmtelecom",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "MW",
+    "carriers": [
+      {
+        "name": "Tnm",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "GL",
+    "carriers": [
+      {
+        "name": "Tusass",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "PF",
+    "carriers": [
+      {
+        "name": "Viti",
+        "has5G": false,
+        "hasVoLTE": true,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      },
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "CK",
+    "carriers": [
+      {
+        "name": "Vodafone",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
+    ]
+  },
+  {
+    "id": "DO",
+    "carriers": [
+      {
+        "name": "Wind",
+        "has5G": false,
+        "hasVoLTE": false,
+        "hasVoWiFi": false,
+        "hasVo5G": false
+      }
     ]
   }
 ]
