@@ -1,4 +1,4 @@
-# Pixel Network Status 🌐
+# Carrier Base 🌐
 
 A centralized dashboard tracking the real-world support of modern network technologies (5G, VoNR, VoLTE, VoWiFi) on Google Pixel devices across global mobile carriers. 
 
@@ -22,6 +22,10 @@ To submit an update:
 1. Gather proof (e.g., screenshots of your status bar or network settings).
 2. Send the information directly to my Telegram: **[@avaewww](https://t.me/avaewww)**.
 3. I will review the proof and manually update the global database.
+
+## Credits & License
+* **Data Sources:** Carrier Settings configs extracted from Android System Images.
+* **Typography & Graphics:** The "e-Ukraine" typeface and specific graphical assets are developed by Fedoriv Design Agency for the Ministry of Digital Transformation of Ukraine and are used under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 ## 📄 Disclaimer
 This is an independent project and is not affiliated with Google or any mobile carrier. The platform is for informational purposes only. No personal user data is collected.
