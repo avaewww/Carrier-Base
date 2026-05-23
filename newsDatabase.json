@@ -1,0 +1,20 @@
+[
+  {
+    "date": "2026-05-23",
+    "tag": "Announcement",
+    "title": "Welcome to CarrierBase",
+    "body": "We are excited to launch CarrierBase — a community-driven database tracking real-world 5G, VoLTE, and VoWiFi support across mobile carriers worldwide for Google Pixel devices. Our data is compiled from the analysis of official Android system update images and verified community reports."
+  },
+  {
+    "date": "2026-05-23",
+    "tag": "Update",
+    "title": "Rebranding Complete",
+    "body": "The project has been rebranded from Pixel Network to CarrierBase. All references, assets, and branding have been updated across the entire site. The new name better reflects our mission as a comprehensive carrier compatibility database."
+  },
+  {
+    "date": "2026-05-23",
+    "tag": "Bug Fix",
+    "title": "Fixed Somaliland Globe Mapping",
+    "body": "Resolved an issue where clicking on Somaliland on the interactive globe incorrectly displayed carrier data for the Solomon Islands. The geographic mapping has been corrected."
+  }
+]
