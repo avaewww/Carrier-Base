@@ -4114,7 +4114,7 @@
     "carriers": [
       {
         "name": "Mtn",
-        "has5G": false,
+        "has5G": true,
         "hasVoLTE": true,
         "hasVoWiFi": false,
         "hasVo5G": false
